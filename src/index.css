@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.GhostWriting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-size: 3vh;
+  border-bottom: 2px solid black;
+}
+
+#FirstLink{
+  margin-left: 60vw;
+  background-color: #3498db;
+}
