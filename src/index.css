@@ -13,7 +13,28 @@ body{
   border-bottom: 2px solid black;
 }
 
-#FirstLink{
+
+#about {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  text-align: center;
   margin-left: 60vw;
-  background-color: #3498db;
+  
+  
+}
+
+#about h2 {
+  grid-column: span 4;
+}
+
+#about #AboutMe {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+#about .Skill {
+  width: 100%;
+  height: 10vh;
 }
